@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRP.SIte", "HRP.SIte.csproj", "{ED37B137-2CE4-4620-BB36-F08FB99367F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRP.DAL", "..\HRP.DAL\HRP.DAL.csproj", "{5DB50806-0B55-4A4D-8E98-A8B5591A5DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRP.Core", "..\HRP.Core\HRP.Core.csproj", "{BF0ECF89-A7E9-40E9-AE06-C8FD902CD387}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED37B137-2CE4-4620-BB36-F08FB99367F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED37B137-2CE4-4620-BB36-F08FB99367F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED37B137-2CE4-4620-BB36-F08FB99367F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED37B137-2CE4-4620-BB36-F08FB99367F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB50806-0B55-4A4D-8E98-A8B5591A5DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB50806-0B55-4A4D-8E98-A8B5591A5DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB50806-0B55-4A4D-8E98-A8B5591A5DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB50806-0B55-4A4D-8E98-A8B5591A5DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0ECF89-A7E9-40E9-AE06-C8FD902CD387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0ECF89-A7E9-40E9-AE06-C8FD902CD387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0ECF89-A7E9-40E9-AE06-C8FD902CD387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0ECF89-A7E9-40E9-AE06-C8FD902CD387}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F076188-388E-4982-91DE-787406DDC645}
+	EndGlobalSection
+EndGlobal
