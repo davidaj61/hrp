@@ -11,6 +11,7 @@ namespace HRP.DAL.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
+
         [Display(Name = "کد ملی")]
         [Required]
         public long NationalId { get; set; }
@@ -21,10 +22,13 @@ namespace HRP.DAL.Entities
         public string Name { get; set; }
 
         [Display(Name="نام خانوادگی")]
+        [MaxLength(50)]
         [Required]
-        public string Famiy { get; set; }
+        public string Family { get; set; }
 
         [Display(Name="تلفن همراه")]
+        [MaxLength(11)]
+        [MinLength(11)]
         [Required]
         public long Mobile { get; set; }
 

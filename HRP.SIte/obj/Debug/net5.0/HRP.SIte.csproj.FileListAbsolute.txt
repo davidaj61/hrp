@@ -67,3 +67,13 @@ D:\UserDocuments\Desktop\HRP\HRP.SIte\obj\Debug\net5.0\HRP.SIte.MvcApplicationPa
 D:\UserDocuments\Desktop\HRP\HRP.SIte\obj\Debug\net5.0\HRP.SIte.dll
 D:\UserDocuments\Desktop\HRP\HRP.SIte\obj\Debug\net5.0\ref\HRP.SIte.dll
 D:\UserDocuments\Desktop\HRP\HRP.SIte\obj\Debug\net5.0\HRP.SIte.pdb
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\HRP.SIte.csproj.AssemblyReference.cache
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\HRP.SIte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\HRP.SIte.AssemblyInfoInputs.cache
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\HRP.SIte.AssemblyInfo.cs
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\HRP.SIte.csproj.CoreCompileInputs.cache
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\HRP.SIte.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\HRP.SIte.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\HRP.SIte.dll
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\ref\HRP.SIte.dll
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\HRP.SIte.pdb

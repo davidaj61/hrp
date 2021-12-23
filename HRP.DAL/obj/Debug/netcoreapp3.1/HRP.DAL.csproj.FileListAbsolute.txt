@@ -17,3 +17,10 @@ D:\UserDocuments\Desktop\HRP\HRP.DAL\obj\Debug\netcoreapp3.1\HRP.DAL.AssemblyInf
 D:\UserDocuments\Desktop\HRP\HRP.DAL\obj\Debug\netcoreapp3.1\HRP.DAL.csproj.CoreCompileInputs.cache
 D:\UserDocuments\Desktop\HRP\HRP.DAL\obj\Debug\netcoreapp3.1\HRP.DAL.dll
 D:\UserDocuments\Desktop\HRP\HRP.DAL\obj\Debug\netcoreapp3.1\HRP.DAL.pdb
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.DAL\obj\Debug\netcoreapp3.1\HRP.DAL.csproj.AssemblyReference.cache
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.DAL\obj\Debug\netcoreapp3.1\HRP.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.DAL\obj\Debug\netcoreapp3.1\HRP.DAL.AssemblyInfoInputs.cache
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.DAL\obj\Debug\netcoreapp3.1\HRP.DAL.AssemblyInfo.cs
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.DAL\obj\Debug\netcoreapp3.1\HRP.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.DAL\obj\Debug\netcoreapp3.1\HRP.DAL.dll
+C:\Users\Davood\Source\Repos\davidaj61\hrp\HRP.DAL\obj\Debug\netcoreapp3.1\HRP.DAL.pdb

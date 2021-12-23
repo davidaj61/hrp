@@ -30,6 +30,16 @@ namespace HRP.DAL.Context
         public  DbSet<Person> tbl_Persons { get; set; }
         public DbSet<PersonDetail> tbl_PersonDetails { get; set; }
         public DbSet<PregnancyCase> tbl_PregnancyCases { get; set; }
+        public DbSet<Form> tbl_Forms { get; set; }
+        public DbSet<Gynecologist> tbl_Gynecologists { get; set; }
+        public DbSet<Question> tbl_Questions { get; set; }
+        public DbSet<QuestionsInForm> tbl_QuestionsInForms { get; set; }
+        public DbSet<QuestionType> tbl_QuestionTypes { get; set; }
+
+
+
+
+
 
 
 
