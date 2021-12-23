@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModels\" />
-    <Folder Include="Services\" />
     <Folder Include="Senders\" />
+    <Folder Include="Services\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
 
   <ItemGroup>
