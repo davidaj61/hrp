@@ -4,8 +4,9 @@ using System.Text;
 
 namespace HRP.Core.Interfaces
 {
-    interface IRole 
+    interface IGynecologist:IDisposable
     {
+
 
     }
 }
