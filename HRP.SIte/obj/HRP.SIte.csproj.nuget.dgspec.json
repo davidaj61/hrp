@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.SIte\\HRP.SIte.csproj": {}
+    "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.SIte\\HRP.SIte.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.Core\\HRP.Core.csproj": {
+    "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.Core\\HRP.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.Core\\HRP.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.Core\\HRP.Core.csproj",
         "projectName": "HRP.Core",
-        "projectPath": "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.Core\\HRP.Core.csproj",
-        "packagesPath": "C:\\Users\\Davood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.Core\\obj\\",
+        "projectPath": "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.Core\\HRP.Core.csproj",
+        "packagesPath": "C:\\Users\\Aghavil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Davood\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Aghavil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -34,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj": {
-                "projectPath": "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj"
+              "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj": {
+                "projectPath": "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj"
               }
             }
           }
@@ -80,26 +78,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj": {
+    "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj",
         "projectName": "HRP.DAL",
-        "projectPath": "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj",
-        "packagesPath": "C:\\Users\\Davood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj",
+        "packagesPath": "C:\\Users\\Aghavil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Davood\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Aghavil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -164,26 +160,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.SIte\\HRP.SIte.csproj": {
+    "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.SIte\\HRP.SIte.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.SIte\\HRP.SIte.csproj",
+        "projectUniqueName": "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.SIte\\HRP.SIte.csproj",
         "projectName": "HRP.SIte",
-        "projectPath": "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.SIte\\HRP.SIte.csproj",
-        "packagesPath": "C:\\Users\\Davood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.SIte\\obj\\",
+        "projectPath": "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.SIte\\HRP.SIte.csproj",
+        "packagesPath": "C:\\Users\\Aghavil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.SIte\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Davood\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Aghavil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -198,11 +192,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.Core\\HRP.Core.csproj": {
-                "projectPath": "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.Core\\HRP.Core.csproj"
+              "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.Core\\HRP.Core.csproj": {
+                "projectPath": "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.Core\\HRP.Core.csproj"
               },
-              "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj": {
-                "projectPath": "C:\\Users\\Davood\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj"
+              "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj": {
+                "projectPath": "C:\\Users\\Aghavil\\Source\\Repos\\davidaj61\\hrp\\HRP.DAL\\HRP.DAL.csproj"
               }
             }
           }
@@ -234,6 +228,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -254,7 +252,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

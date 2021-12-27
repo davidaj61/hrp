@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HRP.Core",
+    "\\HRP.DAL",
+    "\\HRP.SIte",
+    "\\HRP.SIte\\Views\\Shared"
   ],
-  "SelectedNode": "\\HRP.SIte.sln",
+  "SelectedNode": "\\HRP.SIte\\Controllers",
   "PreviewInSolutionExplorer": false
 }
