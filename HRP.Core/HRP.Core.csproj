@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Senders\" />
-    <Folder Include="Services\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
 
