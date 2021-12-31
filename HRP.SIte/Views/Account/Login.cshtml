@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-
+@model HRP.Core.ViewModels.LoginViewModel
 <html dir="rtl" lang="fa">
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -27,12 +27,12 @@
             <form class="col col-lg-3 col-md-4 col-sm-12 col-xs-12">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">نام کاربری</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text d-xl-block d-lg-block text-muted">لطفا نام کاربری خود را در اختیار اشخاص دیگر قرار ندهید.</div>
+                    <input asp-for="UserName" type="text" class="form-control" autocomplete="off" style="text-align:center;" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="" class="form-text d-xl-block d-lg-block text-muted">لطفا نام کاربری خود را در اختیار اشخاص دیگر قرار ندهید.</div>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">کلمه عبور</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <input type="password" class="form-control" id="">
                 </div>
 
                 <button type="submit" class="btn btn-primary">ورود</button>
