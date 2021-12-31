@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HRP.SIte",
+    "\\HRP.SIte\\Views"
   ],
+  "SelectedNode": "\\HRP.SIte\\Views\\Shared",
   "PreviewInSolutionExplorer": false
 }
