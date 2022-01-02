@@ -9,17 +9,26 @@
     <link href="~/css/bootstrap.rtl.min.css" rel="stylesheet" />
     <link href="~/css/all.min.css" rel="stylesheet" />
 </head>
-<body >
-
-    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-8 col-xs-12 Login">
-        <form method="post">
+<body class="loginbg">
+    <div class="mt-100 ml-15 clearfix">
+    <ul class="list-unstyled list-inline" >
+        <li class="list-inline-item">
             <img src="../img/jums.png" style="width: 80px" />
-            <h3>سامانه ثبت مادران </h3>
+        </li>
+        <li class="list-inline-item">
+            <h3 class="">سامانه ثبت مادران پرخطر </h3>
+        </li>
+
+    </ul>
+
+    </div>
+    <div class="bg-light bg-transparent-5 col-xl-3 col-lg-3 col-md-6 col-sm-8 col-xs-12 ">
+        <form method="post">
             <hr />
             <h5>ورود به سامانه</h5>
             <input type="text" name="u" placeholder="نام کاربری" required="required" />
-            <input type="password" name="p" placeholder="کلمه عبور" required="required" />
-            <button type="submit" class="btn btn-primary btn-block btn-large">ورود</button>
+            <input type="password" name="p" placeholder="کلمه عبور" required="required" class="border border-secondary bor" />
+            <button type="submit" class="btn btn-primary btn-block btn-large clearfix">ورود</button>
         </form>
 
     </div>
