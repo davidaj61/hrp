@@ -5,16 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\AdminPanel\Controllers\" />
+    <Compile Remove="wwwroot\AdminTemplate\**" />
+    <Content Remove="wwwroot\AdminTemplate\**" />
+    <EmbeddedResource Remove="wwwroot\AdminTemplate\**" />
+    <None Remove="wwwroot\AdminTemplate\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Areas\AdminPanel\Data\" />
     <Folder Include="Areas\AdminPanel\Models\" />
     <Folder Include="Areas\AdminPanel\Views\" />
-    <Folder Include="Areas\" />
     <Folder Include="wwwroot\css\" />
-    <Folder Include="wwwroot\img\NewFolder\" />
     <Folder Include="wwwroot\js\" />
     <Folder Include="wwwroot\fonts\" />
-    <Folder Include="wwwroot\AdminTemplate\" />
   </ItemGroup>
 
   <ItemGroup>

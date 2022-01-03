@@ -9,30 +9,50 @@
     <link href="~/css/bootstrap.rtl.min.css" rel="stylesheet" />
     <link href="~/css/all.min.css" rel="stylesheet" />
 </head>
-<body class="loginbg">
-    <div class="mt-100 ml-15 clearfix">
-    <ul class="list-unstyled list-inline" >
-        <li class="list-inline-item">
-            <img src="../img/jums.png" style="width: 80px" />
-        </li>
-        <li class="list-inline-item">
-            <h3 class="">سامانه ثبت مادران پرخطر </h3>
-        </li>
+<body >
+    <div class="fa-cpanel panel-body col-md-4 col-xs-12" style="margin:0 auto;text-align:center; background-color:whitesmoke;border-radius:5px;box-shadow:6px 6px 3px 0 gray;">
+        <div class="modal-body">
+            <div>
+                <img src="~/img/jums.png" style="width:75px;margin-bottom:10px;"/>
+            </div>
+            <div class="h4 text-center">
+                ورود به سیستم
+            </div>
 
-    </ul>
-
+        </div>
     </div>
-    <div class="bg-light bg-transparent-5 col-xl-3 col-lg-3 col-md-6 col-sm-8 col-xs-12 ">
-        <form method="post">
-            <hr />
-            <h5>ورود به سامانه</h5>
-            <input type="text" name="u" placeholder="نام کاربری" required="required" />
-            <input type="password" name="p" placeholder="کلمه عبور" required="required" class="border border-secondary bor" />
-            <button type="submit" class="btn btn-primary btn-block btn-large clearfix">ورود</button>
-        </form>
 
-    </div>
+    @*<div class="mt-100 ml-15 clearfix">
+        <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+                <img src="../img/jums.png" style="width: 80px" />
+            </li>
+            <li class="list-inline-item">
+                <h3 class="">سامانه ثبت مادران پرخطر </h3>
+            </li>
+
+        </ul>
+        <hr />
+        <h5>ورود به سامانه</h5>
+        <div  >
+            <form asp-controller="Account" asp-action="Login" method="post">
+                <div class="form-group col-sm-12 col-xs-12">
+                    <div class="input-group">
+                        <i class="fa fa-user" style="width:30px;padding-top:6px;padding-left:1px;padding-right:1px;margin-left:0;border:1px solid gray;border-radius:0 5px 5px 0;" />
+
+                        <input class="form-control w-100" type="text" asp-for="UserName" placeholder="نام کاربری" required="required" />
+                    </div>
+                    <div class="input-group">
+                        <i class="fa fa-key" style="width:30px;padding-top:6px;padding-left:1px;padding-right:1px;margin-left:0;border:1px solid gray;border-radius:0 5px 5px 0;" />
+                        <input class="form-control w-100" type="password" asp-for="Password" placeholder="کلمه عبور" required="required" />
+                    </div>
+                    <button type="submit" class=" btn btn-primary btn-block btn-large clearfix">ورود</button>
+                </div>
+            </form>
+
+        </div>
+    </div>*@
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/fontawesome.min.js"></script>
 </body>
-<script src="~/js/bootstrap.min.js"></script>
-<script src="~/js/fontawesome.min.js"></script>
 </html>

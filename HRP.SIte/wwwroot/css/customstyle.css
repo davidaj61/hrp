@@ -11,8 +11,4 @@ body {
     font-weight: 400;
 }
 
-.loginbg {
-    background-image: url("../img/bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
