@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Senders\" />
+    <Compile Remove="Senders\**" />
+    <EmbeddedResource Remove="Senders\**" />
+    <None Remove="Senders\**" />
   </ItemGroup>
 
   <ItemGroup>

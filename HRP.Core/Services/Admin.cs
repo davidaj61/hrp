@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HRP.Core.Services
 {
-    class User
+    class Admin
     {
     }
 }

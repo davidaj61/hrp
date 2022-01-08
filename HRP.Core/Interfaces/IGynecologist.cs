@@ -5,7 +5,7 @@ using HRP.DAL.Entities;
 
 namespace HRP.Core.Interfaces
 {
-    interface IGynecologist : IDisposable
+    public interface IGynecologist : IDisposable
     {
         IList<Gynecologist> GetAll();
 
