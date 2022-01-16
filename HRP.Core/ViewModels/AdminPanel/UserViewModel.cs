@@ -37,7 +37,7 @@ namespace HRP.Core.ViewModels.AdminPanel
         public string ConfirmedPassword { get; set; }
 
         [Required(ErrorMessage = "اعلام وضعیت کاربر الزامی است.")]
-        public bool IsActive { get; set; }
+        public bool? IsActive { get; set; }
 
         [Required]
         public Guid RoleId { get; set; }

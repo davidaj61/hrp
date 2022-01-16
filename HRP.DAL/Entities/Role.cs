@@ -10,5 +10,7 @@ namespace HRP.DAL.Entities
 {
     public class Role:IdentityRole
     {
+
+        public string  Title { get; set; }
     }
 }

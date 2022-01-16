@@ -12,7 +12,7 @@ namespace HRP.DAL.Entities
         public int PersonID { get; set; }
 
         [Display(Name = "فعال/غیرفعال")]
-        public Boolean IsActive { get; set; }
+        public Boolean? IsActive { get; set; }
 
         [ForeignKey("PersonID")]
         public virtual Person Person { get; set; }

@@ -7,7 +7,7 @@ namespace HRP.Core.Securities
 {
    public static class HashEncode
     {
-        public static string GetHashCode(string password)
+        public static string ToGetHashCode(this string password)
         {
             byte[] mainBytes;
             byte[] encodeBytes;
