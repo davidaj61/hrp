@@ -12,11 +12,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HRP.Core.Services
 {
-    class Admin : IAdmin
+    class AdminService : IAdmin
     {
         private readonly DatabaseContext _context;
 
-        public Admin(DatabaseContext databaseContext)
+        public AdminService(DatabaseContext databaseContext)
         {
             _context = databaseContext;
         }
@@ -62,9 +62,21 @@ namespace HRP.Core.Services
             _context.Entry(user).State = Microsoft.EntityFrameworkCore.EntityState.Added;
             _context.SaveChanges();
         }
-        public void UpdateUser(UserViewModel viewModel)
+        public void UpdateUser(Guid id, UserViewModel viewModel)
         {
-            throw new NotImplementedException();
+            var user = _context.Users.Find(id);
+            
+            if(user!=null)
+            {
+                var person = _context.tbl_Persons.Find(user.PersonID);
+                person.Name = viewModel.Name;
+                person.Family = viewModel.Family;
+                person.Mobile = viewModel.Mobile;
+                person.NationalId = viewModel.NationalCode;
+
+                user.UserName = viewModel.NationalCode.ToString("0000000000");
+                user.IsActive = viewModel.IsActive.Value;
+            }
         }
         public void DeleteUser(Guid Id)
         {
@@ -74,9 +86,9 @@ namespace HRP.Core.Services
         #endregion
 
         #region Role
-        public Task<List<Role>> GetAllRoles()
+        public async Task<List<Role>> GetAllRoles()
         {
-            throw new NotImplementedException();
+           return await _context.Roles.ToListAsync();
         }
         public void AddRole(RoleViewModel viewModel)
         {
@@ -120,9 +132,9 @@ namespace HRP.Core.Services
         #endregion
 
         #region Gynecologist
-        public Task<List<DAL.Entities.Gynecologist>> GetAllGynecologist()
+        public async Task<List<DAL.Entities.Gynecologist>> GetAllGynecologist()
         {
-            throw new NotImplementedException();
+            return await _context.tbl_Gynecologists.ToListAsync();
         }
         public void AddGynecologist(GynecologistViewModel viewModel)
         {
@@ -131,12 +143,29 @@ namespace HRP.Core.Services
                 Name = viewModel.Name,
                 IsActive = viewModel.IsActive.Value,
             };
+            _context.Entry(gynecologist).State = EntityState.Added;
         }
+        public void UpdateGynecologist(byte id, GynecologistViewModel viewModel)
+        {
+            var gynecologist = _context.tbl_Gynecologists.Find(id);
+            if (gynecologist != null)
+            {
+                gynecologist.Name = viewModel.Name;
+                gynecologist.IsActive = viewModel.IsActive.Value;
+
+            }
+        }
+        public void DeleteGynecologist(byte Id)
+        {
+            throw new NotImplementedException();
+        }
+
         public void UpdateGynecologist(GynecologistViewModel viewModel)
         {
             throw new NotImplementedException();
         }
-        public void DeleteGynecologist(byte Id)
+
+        public void UpdateUser(UserViewModel viewModel)
         {
             throw new NotImplementedException();
         }

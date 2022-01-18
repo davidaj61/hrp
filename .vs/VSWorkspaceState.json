@@ -1,11 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\HRP.Core",
+    "\\HRP.Core\\Interfaces",
     "\\HRP.DAL",
     "\\HRP.SIte",
     "\\HRP.SIte\\Views",
     "\\HRP.SIte\\Views\\Account"
   ],
-  "SelectedNode": "\\HRP.SIte\\Views\\Account\\Login.cshtml",
+  "SelectedNode": "\\HRP.Core\\Interfaces\\Admin.cs",
   "PreviewInSolutionExplorer": false
 }
