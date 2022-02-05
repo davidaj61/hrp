@@ -29,7 +29,7 @@ namespace HRP.Core.Services
         }
 
         #region User
-        public Task<List<User>> GetAllUser()
+        public Task<List<Person>> GetAllUser()
         {
             throw new NotImplementedException();
         }
@@ -166,6 +166,16 @@ namespace HRP.Core.Services
         }
 
         public void UpdateUser(UserViewModel viewModel)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdateRole(RoleViewModel viewModel, Guid id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdateGynecologist(GynecologistViewModel viewModel, byte id)
         {
             throw new NotImplementedException();
         }

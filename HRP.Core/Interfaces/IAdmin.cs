@@ -18,7 +18,7 @@ namespace HRP.Core.Interfaces
         #endregion
         #region User
 
-        Task<List<User>> GetAllUser();
+        Task<List<Person>> GetAllUser();
         Task<User> GetUserByID(Guid Id);
         void AddUser(UserViewModel viewModel);
         void UpdateUser(UserViewModel viewModel);
@@ -30,16 +30,16 @@ namespace HRP.Core.Interfaces
 
         Task<List<Role>> GetAllRoles();
         void AddRole(RoleViewModel viewModel);
-        void UpdateRole(RoleViewModel viewModel);
-        void DeleteRole(Guid Id);
+        void UpdateRole(RoleViewModel viewModel,Guid id);
+        void DeleteRole(Guid id);
 
         #endregion
 
         #region Gynecologist
         Task<List<Gynecologist>> GetAllGynecologist();
         void AddGynecologist(GynecologistViewModel viewModel);
-        void UpdateGynecologist(GynecologistViewModel viewModel);
-        void DeleteGynecologist(byte Id);
+        void UpdateGynecologist(GynecologistViewModel viewModel, byte id);
+        void DeleteGynecologist(byte id);
 
 
         #endregion

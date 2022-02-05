@@ -4,17 +4,27 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <link href="~/css/all.min.css" rel="stylesheet" />
     <link href="~/css/bootstrap.rtl.min.css" rel="stylesheet" />
     <link href="~/css/customstyle.css" rel="stylesheet" />
-    <link href="~/css/all.min.css" rel="stylesheet" />
     <link href="~/css/site.css" rel="stylesheet" />
 </head>
 <body>
+    <div class="row flex-row">
+        <div class="col-2 ">
+            <img src="../img/jums.png" alt="دانشگاه علوم پزشکی جهرم-Jahrom university of medicine" style="width:80px;margin:10px;" />
+        </div>
+        <div class="col-8 align-self-center">
+            <span class="display-5 text-lg-start align-content-center">سامانه ثبت اطلاعات مادران پر خطر</span>
+        </div>
+        <div class="col-2">
 
-    <div >
+        </div>
+    </div>
+    <div>
         @RenderBody()
     </div>
-</body>
 <script src="~/js/bootstrap.min.js"></script>
 <script src="~/js/fontawesome.min.js"></script>
+</body>
 </html>
