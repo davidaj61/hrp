@@ -1317,3 +1317,4 @@ D:\GitHub\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\HRP.SIte.dll
 D:\GitHub\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\ref\HRP.SIte.dll
 D:\GitHub\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\HRP.SIte.pdb
 D:\GitHub\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\HRP.SIte.genruntimeconfig.cache
+C:\Users\Aghavil\Source\Repos\davidaj61\hrp\HRP.SIte\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs

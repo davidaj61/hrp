@@ -21,8 +21,33 @@
 
         </div>
     </div>
-    <nav>
+    <nav class="navbar navbar-dark navbar-expand-sm navbar-light mb-4 ">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapse" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ثبت اطلاعات مادر باردار</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">پرونده بارداری</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">گزارشات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">مدیریت سیستم</a>
+                    </li>
 
+                </ul>
+                <form class="for my-2 my-lg-0 align-content-end">
+                    <input class="form-control mr-sm-2" placeholder="جستجوی کد ملی مادر" />
+                    <button class="btn btn-outline-primary my-2 my-sm-0 fa-duotone fa-search" ></button>
+                </form>
+            </div>
+        </div>
     </nav>
     <div>
         @RenderBody()
